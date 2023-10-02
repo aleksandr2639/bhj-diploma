@@ -92,7 +92,7 @@ class AccountsWidget {
    * item - объект с данными о счёте
    * */
   getAccountHTML(item) {
-    const li = this.element.createElement('li');
+    const li = document.createElement('li');
     li.classList.add(`account`);
     li.dataset.id = `${item.id}`;
     li.insertAdjacentHTML('afterbegin', `<a href='#'>
