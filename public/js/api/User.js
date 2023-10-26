@@ -42,10 +42,11 @@ class User {
       url: this.URL + `/current`,
       method: 'GET', // метод запроса
       callback: (err, response) => {
-        if(response && response.success) {
-          User.setCurrent(response.user)
+        if(response && response.user) {
+          this.setCurrent(response.user)
+          callback (err, response)
         } else {
-          User.unsetCurrent()
+          this.unsetCurrent();
         }
         callback (err, response)
       }
@@ -62,10 +63,11 @@ class User {
     createRequest({
       url: this.URL + `/login`,
       method: 'POST',
+      responseType: 'json',
       data,
       callback: (err, response) => {
         if (response && response.user) {
-          User.setCurrent(response.user);
+          this.setCurrent(response.user);
         }
         callback(err, response);
       }
@@ -85,7 +87,7 @@ class User {
       data,
       callback: (err, response) => {
         if (response && response.user) {
-          User.setCurrent(response.user);
+          this.setCurrent(response.user);
         }
         callback(err, response);
       }
@@ -101,10 +103,8 @@ class User {
       url: this.URL + `/logout`,
       method: 'POST',
       callback: (err, response) => {
-        if (response && response.user) {
-          User.unsetCurrent(response.user);
-        }
-        callback(err, response);
+          this.unsetCurrent();
+          callback(err, response);
       }
     });
   }

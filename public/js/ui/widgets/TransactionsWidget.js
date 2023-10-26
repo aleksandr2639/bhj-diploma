@@ -32,9 +32,7 @@ class TransactionsWidget {
         el.addEventListener('click', () => {
           App.getModal('newExpense').open();
         });
-
       }
-    })
-
+    });
   }
 }

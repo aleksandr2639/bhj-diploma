@@ -25,8 +25,8 @@ class Modal {
    * (с помощью метода Modal.onClose)
    * */
   registerEvents() {
-    const modal = Array.from(this.element.querySelectorAll('[data-dismiss]'));
-    modal.forEach((item) => item.addEventListener('click', (e) => this.onClose(e))
+    const modal = this.element.querySelectorAll('[data-dismiss = "modal"]');
+    modal.forEach((item) => item.addEventListener('click', () => this.onClose())
     )
   }
 
@@ -42,12 +42,12 @@ class Modal {
    * со значением «block»
    * */
   open() {
-   this.element.style.display ='block';
+   this.element.style.display = 'block';
   }
   /**
    * Закрывает окно: удаляет CSS-свойство display
    * */
   close(){
-    this.element.style.display ='';
+    this.element.style.display = 'none';
   }
 }

@@ -30,13 +30,15 @@ class AccountsWidget {
    * вызывает AccountsWidget.onSelectAccount()
    * */
   registerEvents() {
-    this.element.addEventListener('click' ,(e) => {
-      if (e.target.contains('create-account')){
+    document.querySelector('.create-account').addEventListener('click' ,() => {
         App.getModal('createAccount').open()
-      } else if (e.target.closest(`li`).classList.contains('account')){
-        this.onSelectAccount(e.target.closest('li'));
+      });
+
+    this.element.addEventListener('click' ,(e) => {
+      if (e.target.closest('.account')) {
+        this.onSelectAccount(e.target.closest('.account'));
       }
-    })
+    });
   }
 
   /**
@@ -113,7 +115,7 @@ class AccountsWidget {
   renderItem(data) {
     data.forEach(el => {
       const item = this.getAccountHTML(el);
-      this.element.insertAdjacentElement('beforeEnd', item);
+      document.querySelector('.accounts-panel').insertAdjacentElement('beforeEnd', item);
     });
 
   }

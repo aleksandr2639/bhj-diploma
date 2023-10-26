@@ -26,42 +26,6 @@
   ],
   "transactions": [
     {
-      "account_id": "1",
-      "created_at": "2019-09-15 10:24:02",
-      "id": "1",
-      "name": "Кредит",
-      "sum": 5000,
-      "type": "expense",
-      "user_id": "1"
-    },
-    {
-      "account_id": "1",
-      "created_at": "2019-09-17 15:53:02",
-      "id": "2",
-      "name": "Баланс на дебетовке",
-      "sum": 3200,
-      "type": "income",
-      "user_id": "1"
-    },
-    {
-      "account_id": "1",
-      "created_at": "2019-09-19 20:12:02",
-      "id": "3",
-      "name": "Копилка",
-      "sum": 1500,
-      "type": "income",
-      "user_id": "1"
-    },
-    {
-      "account_id": "2",
-      "created_at": "2019-09-26 16:23:02",
-      "id": "4",
-      "name": "Молочные продукты",
-      "sum": 100,
-      "type": "income",
-      "user_id": "1"
-    },
-    {
       "account_id": "2",
       "created_at": "2019-09-25 15:03:02",
       "id": "5",
@@ -188,15 +152,6 @@
       "created_at": "2023-09-22T14:06:44.314Z"
     },
     {
-      "id": "dbx67slmurzrr7",
-      "type": "income",
-      "name": "alexander",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-09-22T15:47:41.250Z"
-    },
-    {
       "id": "dbx8rolmurztu7",
       "type": "income",
       "name": "alexander",
@@ -222,6 +177,258 @@
       "account_id": "1",
       "user_id": "1",
       "created_at": "2023-10-02T17:48:49.428Z"
+    },
+    {
+      "id": "xdz510glo7cbd4p",
+      "type": "income",
+      "name": "зарплата",
+      "sum": 12000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T15:29:30.936Z"
+    },
+    {
+      "id": "xdz57oslo7cbf0i",
+      "type": "income",
+      "name": "зарплата",
+      "sum": 12000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T15:29:33.377Z"
+    },
+    {
+      "id": "xdz58w0lo7facey",
+      "type": "income",
+      "name": "alex",
+      "sum": 12000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T16:52:42.201Z"
+    },
+    {
+      "id": "xdz568lo7fve15",
+      "type": "income",
+      "name": "alex",
+      "sum": 12000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T17:09:04.072Z"
+    },
+    {
+      "id": "xdz5bqwlo7hl9js",
+      "type": "income",
+      "name": "alex",
+      "sum": 12000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T17:57:10.935Z"
+    },
+    {
+      "id": "xdz572olo7hlalu",
+      "type": "income",
+      "name": "alex",
+      "sum": 12000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T17:57:12.305Z"
+    },
+    {
+      "id": "xdz58dolo7hlb7s",
+      "type": "income",
+      "name": "alex",
+      "sum": 12000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T17:57:13.096Z"
+    },
+    {
+      "id": "xdz55c0lo7hlbmy",
+      "type": "income",
+      "name": "alex",
+      "sum": 12000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T17:57:13.641Z"
+    },
+    {
+      "id": "xdz57cclo7hve3l",
+      "type": "income",
+      "name": "машина",
+      "sum": 1000000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:05:03.392Z"
+    },
+    {
+      "id": "xdz599klo7if2em",
+      "type": "expense",
+      "name": "машина",
+      "sum": 12000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:20:21.357Z"
+    },
+    {
+      "id": "xdz5920lo7ifaox",
+      "type": "expense",
+      "name": "машина",
+      "sum": 12000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:20:32.096Z"
+    },
+    {
+      "id": "xdz5814lo7irc1x",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:29:53.732Z"
+    },
+    {
+      "id": "xdz58wwlo7ird78",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:29:55.219Z"
+    },
+    {
+      "id": "xdz54h8lo7irgus",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:29:59.955Z"
+    },
+    {
+      "id": "xdz55aclo7irm43",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:30:06.770Z"
+    },
+    {
+      "id": "xdz5bf8lo7irmlc",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:30:07.391Z"
+    },
+    {
+      "id": "xdz59nclo7is68z",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:30:32.866Z"
+    },
+    {
+      "id": "xdz54j8lo7is6zi",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:30:33.821Z"
+    },
+    {
+      "id": "xdz57tclo7is7ll",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:30:34.616Z"
+    },
+    {
+      "id": "xdz5nglo7isasb",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:30:38.746Z"
+    },
+    {
+      "id": "xdz55ewlo7isb8j",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:30:39.330Z"
+    },
+    {
+      "id": "xdz55ewlo7isbap",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:30:39.409Z"
+    },
+    {
+      "id": "xdz55ewlo7isbdy",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:30:39.526Z"
+    },
+    {
+      "id": "xdz5120lo7iuy9h",
+      "type": "expense",
+      "name": "машина",
+      "sum": 1000000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:32:42.484Z"
+    },
+    {
+      "id": "xdz57gclo7iv0b9",
+      "type": "expense",
+      "name": "машина",
+      "sum": 1000000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:32:45.140Z"
+    },
+    {
+      "id": "xdz51b8lo7iv0zw",
+      "type": "expense",
+      "name": "машина",
+      "sum": 1000000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:32:46.027Z"
+    },
+    {
+      "id": "xdz592klo7izcdl",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:36:07.400Z"
+    },
+    {
+      "id": "xdz55z8lo7izd69",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-10-26T18:36:08.432Z"
     }
   ]
 }

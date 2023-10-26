@@ -3,41 +3,32 @@
  * на сервер.
  * */
 const createRequest = (options = {}) => {
-    const xhr = new XMLHttpRequest(),
-          arr =[],
-          formData = new FormData();
-    let url;
 
-        if( options.method === 'GET') {
-            if(options.data) {
-            for (const [key, value] of Object.entries(options.data)) {
-                arr.push(`${key} = ${value}`)
-            }
-            }
-            url = `${options.url}?${arr.join('&')}`;
-
-        } else {
-            for (const [key, value] of Object.entries(options.data)) {
-                formData.append(key, value);
-            }
-            url = `${options.url}`;
-
-        }
-        xhr.responseType = 'json';
-
-        xhr.onload = () => {
-            if (xhr.status < 400) {
-                options.callback(xhr.error, xhr.response);
-            } else {
-                console.log(`Ошибка ${xhr.status}: ${xhr.statusText}.`);
-            }
-        }
-
-    try{
-            xhr.open(options.method,url)
-            xhr.send(formData)
+    const xhr = new XMLHttpRequest();
+    options.method === "GET";
+    let url = `${options.url}` + "?";
+    for (let value in options.data) {
+        url += `${value}=${options.data[value]}&`;
     }
-    catch (e) {
+    const formData = new FormData();
+    for (let value in options.data) {
+        formData.append(value, options.data[value]);
+    }
+    try {
+        xhr.open(options.method, url);
+        xhr.send(formData);
+    } catch (e) {
         options.callback(e);
     }
+
+    xhr.responseType = 'json';
+
+    xhr.onload = () => {
+        if (xhr.status === 200) {
+            options.callback(xhr.err, xhr.response);
+        }
+    };
+    xhr.onerror = () => {
+        options.callback(xhr.response.error, xhr.response);
+    };
 };

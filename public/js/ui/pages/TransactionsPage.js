@@ -142,7 +142,7 @@ class TransactionsPage {
    * item - объект с информацией о транзакции
    * */
   getTransactionHTML(item){
-    const elem = this.element.createElement(`div`);
+    const elem = document.createElement(`div`);
     elem.classList.add(`transaction`,
         `row`, `transaction_${item.type}`);
     elem.insertAdjacentHTML(`afterbegin`, ` <div class="col-md-7 transaction__details">
