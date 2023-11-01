@@ -8,7 +8,8 @@ class CreateTransactionForm extends AsyncForm {
    * метод renderAccountsList
    * */
   constructor(element) {
-    super(element)
+    super(element);
+    this.renderAccountsList();
   }
 
   /**
@@ -34,17 +35,11 @@ class CreateTransactionForm extends AsyncForm {
    * в котором находится форма
    * */
   onSubmit(data) {
-    Transaction.create(data, (response) => {
-      if (response && response.success) {
+    Transaction.create( data, () => {
         this.element.reset();
+        App.getModal('newIncome').close();
+        App.getModal('newExpense').close();
         App.update();
-        if(this.element.id == 'modal-new-income') {
-          App.getModal('newIncome').close();
-        } else if (this.element.id == 'modal-new-expense') {
-          App.getModal('newExpense').close();
-        }
-      }
-      App.update()
-    })
+    });
   }
 }

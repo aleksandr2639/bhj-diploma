@@ -5,6 +5,12 @@
       "email": "demo@demo",
       "password": "demo",
       "id": "1"
+    },
+    {
+      "name": "alex",
+      "email": "alex@alex",
+      "password": "alex",
+      "id": "dbx7a8lofyd0mf"
     }
   ],
   "accounts": [
@@ -22,9 +28,55 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "машина",
+      "user_id": "dbx7a8lofyd0mf",
+      "id": "dbxb7slofyd9mz"
+    },
+    {
+      "name": "дом",
+      "user_id": "dbx7a8lofyd0mf",
+      "id": "dbx40clofyks4b"
     }
   ],
   "transactions": [
+    {
+      "account_id": "1",
+      "created_at": "2019-09-15 10:24:02",
+      "id": "1",
+      "name": "Кредит",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-17 15:53:02",
+      "id": "2",
+      "name": "Баланс на дебетовке",
+      "sum": 3200,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-19 20:12:02",
+      "id": "3",
+      "name": "Копилка",
+      "sum": 1500,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 16:23:02",
+      "id": "4",
+      "name": "Молочные продукты",
+      "sum": 100,
+      "type": "income",
+      "user_id": "1"
+    },
     {
       "account_id": "2",
       "created_at": "2019-09-25 15:03:02",
@@ -125,310 +177,841 @@
       "user_id": "1"
     },
     {
-      "id": "dbx9sclmuodwpw",
+      "id": "dbx7k8lofydf0w",
       "type": "income",
-      "name": "alexander",
+      "name": "alex",
       "sum": 1000,
-      "account_id": "2",
-      "user_id": "1",
-      "created_at": "2023-09-22T14:06:42.403Z"
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:09:07.663Z"
     },
     {
-      "id": "dbx19klmuodxmg",
+      "id": "dbx4tclofydmw2",
       "type": "income",
-      "name": "alexander",
+      "name": "alex",
       "sum": 1000,
-      "account_id": "2",
-      "user_id": "1",
-      "created_at": "2023-09-22T14:06:43.575Z"
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:09:17.857Z"
     },
     {
-      "id": "dbx5d4lmuody6z",
+      "id": "dbx938lofye7r4",
       "type": "income",
-      "name": "alexander",
+      "name": "alex",
       "sum": 1000,
-      "account_id": "2",
-      "user_id": "1",
-      "created_at": "2023-09-22T14:06:44.314Z"
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:09:44.895Z"
     },
     {
-      "id": "dbx8rolmurztu7",
+      "id": "dbx8zslofye8jo",
       "type": "income",
-      "name": "alexander",
+      "name": "alex",
       "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-09-22T15:47:43.950Z"
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:09:45.923Z"
     },
     {
-      "id": "dbx90sln96q1oq",
-      "type": "income",
-      "name": "122",
-      "sum": 566,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-02T17:48:48.265Z"
-    },
-    {
-      "id": "dbxargln96q2l1",
-      "type": "income",
-      "name": "122",
-      "sum": 566,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-02T17:48:49.428Z"
-    },
-    {
-      "id": "xdz510glo7cbd4p",
+      "id": "dbx100lofyg12o",
       "type": "income",
       "name": "зарплата",
-      "sum": 12000,
+      "sum": 10000,
       "account_id": "1",
       "user_id": "1",
-      "created_at": "2023-10-26T15:29:30.936Z"
+      "created_at": "2023-11-01T16:11:09.551Z"
     },
     {
-      "id": "xdz57oslo7cbf0i",
+      "id": "dbx9dwlofyg5gw",
       "type": "income",
       "name": "зарплата",
-      "sum": 12000,
+      "sum": 10000,
       "account_id": "1",
       "user_id": "1",
-      "created_at": "2023-10-26T15:29:33.377Z"
+      "created_at": "2023-11-01T16:11:15.247Z"
     },
     {
-      "id": "xdz58w0lo7facey",
-      "type": "income",
-      "name": "alex",
-      "sum": 12000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T16:52:42.201Z"
-    },
-    {
-      "id": "xdz568lo7fve15",
-      "type": "income",
-      "name": "alex",
-      "sum": 12000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T17:09:04.072Z"
-    },
-    {
-      "id": "xdz5bqwlo7hl9js",
-      "type": "income",
-      "name": "alex",
-      "sum": 12000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T17:57:10.935Z"
-    },
-    {
-      "id": "xdz572olo7hlalu",
-      "type": "income",
-      "name": "alex",
-      "sum": 12000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T17:57:12.305Z"
-    },
-    {
-      "id": "xdz58dolo7hlb7s",
-      "type": "income",
-      "name": "alex",
-      "sum": 12000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T17:57:13.096Z"
-    },
-    {
-      "id": "xdz55c0lo7hlbmy",
-      "type": "income",
-      "name": "alex",
-      "sum": 12000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T17:57:13.641Z"
-    },
-    {
-      "id": "xdz57cclo7hve3l",
-      "type": "income",
-      "name": "машина",
-      "sum": 1000000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:05:03.392Z"
-    },
-    {
-      "id": "xdz599klo7if2em",
+      "id": "dbx93klofyh1ed",
       "type": "expense",
       "name": "машина",
-      "sum": 12000,
+      "sum": 500,
       "account_id": "1",
       "user_id": "1",
-      "created_at": "2023-10-26T18:20:21.357Z"
+      "created_at": "2023-11-01T16:11:56.628Z"
     },
     {
-      "id": "xdz5920lo7ifaox",
+      "id": "dbx55klofyi3il",
       "type": "expense",
-      "name": "машина",
-      "sum": 12000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:20:32.096Z"
-    },
-    {
-      "id": "xdz5814lo7irc1x",
-      "type": "income",
-      "name": "вклад",
+      "name": "покупка бензина",
       "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:29:53.732Z"
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:12:46.028Z"
     },
     {
-      "id": "xdz58wwlo7ird78",
-      "type": "income",
-      "name": "вклад",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:29:55.219Z"
-    },
-    {
-      "id": "xdz54h8lo7irgus",
-      "type": "income",
-      "name": "вклад",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:29:59.955Z"
-    },
-    {
-      "id": "xdz55aclo7irm43",
-      "type": "income",
-      "name": "вклад",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:30:06.770Z"
-    },
-    {
-      "id": "xdz5bf8lo7irmlc",
-      "type": "income",
-      "name": "вклад",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:30:07.391Z"
-    },
-    {
-      "id": "xdz59nclo7is68z",
-      "type": "income",
-      "name": "вклад",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:30:32.866Z"
-    },
-    {
-      "id": "xdz54j8lo7is6zi",
-      "type": "income",
-      "name": "вклад",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:30:33.821Z"
-    },
-    {
-      "id": "xdz57tclo7is7ll",
-      "type": "income",
-      "name": "вклад",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:30:34.616Z"
-    },
-    {
-      "id": "xdz5nglo7isasb",
-      "type": "income",
-      "name": "вклад",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:30:38.746Z"
-    },
-    {
-      "id": "xdz55ewlo7isb8j",
-      "type": "income",
-      "name": "вклад",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:30:39.330Z"
-    },
-    {
-      "id": "xdz55ewlo7isbap",
-      "type": "income",
-      "name": "вклад",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:30:39.409Z"
-    },
-    {
-      "id": "xdz55ewlo7isbdy",
-      "type": "income",
-      "name": "вклад",
-      "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:30:39.526Z"
-    },
-    {
-      "id": "xdz5120lo7iuy9h",
+      "id": "dbx8pglofyi4xv",
       "type": "expense",
-      "name": "машина",
-      "sum": 1000000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:32:42.484Z"
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:12:47.874Z"
     },
     {
-      "id": "xdz57gclo7iv0b9",
+      "id": "dbx4fklofyi6l4",
       "type": "expense",
-      "name": "машина",
-      "sum": 1000000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:32:45.140Z"
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:12:50.007Z"
     },
     {
-      "id": "xdz51b8lo7iv0zw",
+      "id": "dbx40slofyi7lb",
       "type": "expense",
-      "name": "машина",
-      "sum": 1000000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:32:46.027Z"
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:12:51.310Z"
     },
     {
-      "id": "xdz592klo7izcdl",
+      "id": "dbx9iwlofyjtyw",
+      "type": "income",
+      "name": "долг",
+      "sum": 5600,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:14:06.967Z"
+    },
+    {
+      "id": "dbx93wlofyla1p",
+      "type": "income",
+      "name": "кредит",
+      "sum": 560000,
+      "account_id": "dbx40clofyks4b",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:15:14.460Z"
+    },
+    {
+      "id": "dbx4iwlofys9em",
+      "type": "expense",
+      "name": "страховка",
+      "sum": 5000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:20:40.221Z"
+    },
+    {
+      "id": "dbx23clofyxctf",
+      "type": "income",
+      "name": "такси",
+      "sum": 200,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:24:37.922Z"
+    },
+    {
+      "id": "dbxa0olofyygal",
       "type": "income",
       "name": "вклад",
       "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:36:07.400Z"
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:25:29.084Z"
     },
     {
-      "id": "xdz55z8lo7izd69",
+      "id": "dbx8holofyyi6m",
       "type": "income",
       "name": "вклад",
       "sum": 1000,
-      "account_id": "1",
-      "user_id": "1",
-      "created_at": "2023-10-26T18:36:08.432Z"
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:25:31.533Z"
+    },
+    {
+      "id": "dbx3wolofyyrpk",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:25:43.879Z"
+    },
+    {
+      "id": "dbxa4lofyys7o",
+      "type": "income",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:25:44.531Z"
+    },
+    {
+      "id": "dbx4folofyz9s3",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:26:07.299Z"
+    },
+    {
+      "id": "dbxatglofz4gzi",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:30:09.917Z"
+    },
+    {
+      "id": "dbx9t0lofz4j32",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:30:12.637Z"
+    },
+    {
+      "id": "dbx6t0lofz8gsh",
+      "type": "income",
+      "name": "аренда",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:33:16.288Z"
+    },
+    {
+      "id": "dbxb48lofz9e3w",
+      "type": "income",
+      "name": "аренда",
+      "sum": 2000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:33:59.467Z"
+    },
+    {
+      "id": "dbx3oclofz9f95",
+      "type": "income",
+      "name": "аренда",
+      "sum": 2000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:34:00.952Z"
+    },
+    {
+      "id": "dbx59olofzbva2",
+      "type": "income",
+      "name": "аренда",
+      "sum": 2000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:35:55.033Z"
+    },
+    {
+      "id": "dbx7g0lofzbvpv",
+      "type": "income",
+      "name": "аренда",
+      "sum": 2000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:35:55.602Z"
+    },
+    {
+      "id": "dbx5zklofzbw9j",
+      "type": "income",
+      "name": "аренда",
+      "sum": 2000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:35:56.310Z"
+    },
+    {
+      "id": "dbx5zklofzbwb0",
+      "type": "income",
+      "name": "аренда",
+      "sum": 2000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:35:56.364Z"
+    },
+    {
+      "id": "dbx6xslofzbwtg",
+      "type": "income",
+      "name": "аренда",
+      "sum": 2000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:35:57.028Z"
+    },
+    {
+      "id": "dbx6xslofzbwtu",
+      "type": "income",
+      "name": "аренда",
+      "sum": 2000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:35:57.042Z"
+    },
+    {
+      "id": "dbxbqslofzcme8",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:36:30.175Z"
+    },
+    {
+      "id": "dbx8aclofzcn4r",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:36:31.130Z"
+    },
+    {
+      "id": "dbx5l4lofzcnmk",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:36:31.771Z"
+    },
+    {
+      "id": "dbx5l4lofzcnpa",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:36:31.870Z"
+    },
+    {
+      "id": "dbx5l4lofzcnsc",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:36:31.980Z"
+    },
+    {
+      "id": "dbx5r4lofzco97",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:36:32.586Z"
+    },
+    {
+      "id": "dbx9iglofzef3o",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:37:54.035Z"
+    },
+    {
+      "id": "dbx9yklofzegbw",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:37:55.627Z"
+    },
+    {
+      "id": "dbx9pklofzexte",
+      "type": "expense",
+      "name": " штраф",
+      "sum": 500,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:38:18.289Z"
+    },
+    {
+      "id": "dbx7oglofzezf9",
+      "type": "expense",
+      "name": " штраф",
+      "sum": 500,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:38:20.372Z"
+    },
+    {
+      "id": "dbx7eolofzfwwy",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:39:03.777Z"
+    },
+    {
+      "id": "dbx5bclofzfxry",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:39:04.893Z"
+    },
+    {
+      "id": "dbx2y4lofzfyky",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:39:05.937Z"
+    },
+    {
+      "id": "dbx5z4lofzfzxo",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:39:07.691Z"
+    },
+    {
+      "id": "dbx4hwlofzhfuo",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:40:14.975Z"
+    },
+    {
+      "id": "dbx5nslofzhx66",
+      "type": "expense",
+      "name": "электричество",
+      "sum": 7900,
+      "account_id": "dbx40clofyks4b",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:40:37.421Z"
+    },
+    {
+      "id": "dbx574lofzhy7k",
+      "type": "expense",
+      "name": "электричество",
+      "sum": 7900,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:40:38.767Z"
+    },
+    {
+      "id": "dbx8eklofzi0z9",
+      "type": "expense",
+      "name": "электричество",
+      "sum": 7900,
+      "account_id": "dbx40clofyks4b",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:40:42.356Z"
+    },
+    {
+      "id": "dbx3yslofzi20o",
+      "type": "expense",
+      "name": "электричество",
+      "sum": 7900,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:40:43.703Z"
+    },
+    {
+      "id": "dbx19glofzpci2",
+      "type": "income",
+      "name": "аренда",
+      "sum": 4000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:46:23.881Z"
+    },
+    {
+      "id": "dbx838lofzqp9x",
+      "type": "expense",
+      "name": "газ",
+      "sum": 5600,
+      "account_id": "dbx40clofyks4b",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:47:27.092Z"
+    },
+    {
+      "id": "dbx7yolofztrut",
+      "type": "income",
+      "name": "аренда",
+      "sum": 5600,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:49:50.404Z"
+    },
+    {
+      "id": "dbx3dclofzvw5f",
+      "type": "income",
+      "name": "кредит",
+      "sum": 23000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:51:29.282Z"
+    },
+    {
+      "id": "dbx8holofzvyi4",
+      "type": "income",
+      "name": "кредит",
+      "sum": 23000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:51:32.331Z"
+    },
+    {
+      "id": "dbx6t4lofzvz0f",
+      "type": "income",
+      "name": "кредит",
+      "sum": 23000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T16:51:32.990Z"
+    },
+    {
+      "id": "dbx61olog07c8x",
+      "type": "income",
+      "name": "кредит",
+      "sum": 23000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:00:23.360Z"
+    },
+    {
+      "id": "dbxaxolog07d51",
+      "type": "income",
+      "name": "кредит",
+      "sum": 23000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:00:24.516Z"
+    },
+    {
+      "id": "dbxbhklog07vmg",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 5600,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:00:48.471Z"
+    },
+    {
+      "id": "dbx2s8log08639",
+      "type": "expense",
+      "name": "покупка бензина",
+      "sum": 5600,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:01:02.036Z"
+    },
+    {
+      "id": "dbx2colog08ufx",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:01:33.596Z"
+    },
+    {
+      "id": "dbx5tclog0a98l",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:02:39.428Z"
+    },
+    {
+      "id": "dbx9g0log0a9sx",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:02:40.160Z"
+    },
+    {
+      "id": "dbx47wlog0aa8c",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:02:40.715Z"
+    },
+    {
+      "id": "dbx47wlog0aaa4",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:02:40.780Z"
+    },
+    {
+      "id": "dbx47wlog0aaak",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:02:40.796Z"
+    },
+    {
+      "id": "dbxbnklog0aarp",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:02:41.412Z"
+    },
+    {
+      "id": "dbxbnklog0aath",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:02:41.477Z"
+    },
+    {
+      "id": "dbxbnklog0aatv",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:02:41.491Z"
+    },
+    {
+      "id": "dbx8ewlog0abbk",
+      "type": "expense",
+      "name": "налог",
+      "sum": 3000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:02:42.127Z"
+    },
+    {
+      "id": "dbx2oglog0ecqm",
+      "type": "expense",
+      "name": "lng",
+      "sum": 3400,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:05:50.589Z"
+    },
+    {
+      "id": "dbxa0log0edls",
+      "type": "expense",
+      "name": "lng",
+      "sum": 3400,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:05:51.711Z"
+    },
+    {
+      "id": "dbx2yklog0fzkj",
+      "type": "expense",
+      "name": "lng",
+      "sum": 3400,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:07:06.834Z"
+    },
+    {
+      "id": "dbxtglog0g04i",
+      "type": "expense",
+      "name": "lng",
+      "sum": 3400,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:07:07.553Z"
+    },
+    {
+      "id": "dbxtglog0g05s",
+      "type": "expense",
+      "name": "lng",
+      "sum": 3400,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:07:07.600Z"
+    },
+    {
+      "id": "dbx7a8log0g0nm",
+      "type": "expense",
+      "name": "lng",
+      "sum": 3400,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:07:08.241Z"
+    },
+    {
+      "id": "dbx7a8log0g0o5",
+      "type": "expense",
+      "name": "lng",
+      "sum": 3400,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:07:08.261Z"
+    },
+    {
+      "id": "dbx7a8log0g0pf",
+      "type": "expense",
+      "name": "lng",
+      "sum": 3400,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:07:08.307Z"
+    },
+    {
+      "id": "dbx7a8log0g0pw",
+      "type": "expense",
+      "name": "lng",
+      "sum": 3400,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:07:08.324Z"
+    },
+    {
+      "id": "dbx7bslog0g7oc",
+      "type": "expense",
+      "name": "fg",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:07:17.339Z"
+    },
+    {
+      "id": "dbx2gwlog0gx78",
+      "type": "expense",
+      "name": "dd",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:07:50.419Z"
+    },
+    {
+      "id": "dbxabclog0idq4",
+      "type": "expense",
+      "name": "ff",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:08:58.491Z"
+    },
+    {
+      "id": "dbxas4log0j9vc",
+      "type": "expense",
+      "name": "alex",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:09:40.151Z"
+    },
+    {
+      "id": "dbx6gwlog0jb17",
+      "type": "expense",
+      "name": "alex",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:09:41.658Z"
+    },
+    {
+      "id": "dbx1bolog0jbgd",
+      "type": "expense",
+      "name": "alex",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:09:42.204Z"
+    },
+    {
+      "id": "dbx24clog0jc32",
+      "type": "expense",
+      "name": "alex",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:09:43.021Z"
+    },
+    {
+      "id": "dbx7yclog0kjei",
+      "type": "expense",
+      "name": "dsd",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:10:39.161Z"
+    },
+    {
+      "id": "dbx6eglog0kk62",
+      "type": "expense",
+      "name": "dsd",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:10:40.153Z"
+    },
+    {
+      "id": "dbx7eolog0kl4w",
+      "type": "expense",
+      "name": "dsd",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:10:41.407Z"
+    },
+    {
+      "id": "dbxaxolog0nay1",
+      "type": "expense",
+      "name": "dsd",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:12:48.168Z"
+    },
+    {
+      "id": "dbx32clog0nh1d",
+      "type": "expense",
+      "name": "DF",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:12:56.064Z"
+    },
+    {
+      "id": "dbxbnclog0o4ze",
+      "type": "expense",
+      "name": "alex",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:13:27.097Z"
+    },
+    {
+      "id": "dbx49glog0t3pc",
+      "type": "expense",
+      "name": "вклад",
+      "sum": 1000,
+      "account_id": "dbxb7slofyd9mz",
+      "user_id": "dbx7a8lofyd0mf",
+      "created_at": "2023-11-01T17:17:18.719Z"
     }
   ]
 }
